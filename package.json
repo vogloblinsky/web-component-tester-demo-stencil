@@ -1,0 +1,27 @@
+{
+    "name": "web-component-tester-demo-stencil",
+    "version": "1.0.0",
+    "description": "Test of Stencil component with Web Component tester from Polymer team",
+    "main": "index.js",
+    "scripts": {
+        "test": "wct"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://vogloblinsky@github.com/vogloblinsky/web-component-tester-demo-stencil.git"
+    },
+    "author": "vogloblinsky-sii <vogloblinsky@sii.fr>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/vogloblinsky/web-component-tester-demo-stencil/issues"
+    },
+    "homepage": "https://github.com/vogloblinsky/web-component-tester-demo-stencil#readme",
+    "devDependencies": {
+        "@webcomponents/webcomponentsjs": "^2.2.4",
+        "chai": "^4.2.0",
+        "mocha": "^5.2.0",
+        "sinon": "^7.2.3",
+        "wct-mocha": "^1.0.0",
+        "web-component-tester": "^6.9.2"
+    }
+}
