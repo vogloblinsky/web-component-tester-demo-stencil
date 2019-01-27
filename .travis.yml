@@ -3,9 +3,13 @@ sudo: false
 dist: trusty
 node_js: '9'
 addons:
-    chrome: stable
+  chrome: stable
 cache:
-    directories:
-        - node_modules
+  directories:
+  - node_modules
 script:
-    - xvfb-run npm run test -- -l chrome
+- xvfb-run npm run test -- -l chrome
+- wct -s 'windows 10/microsoftedge@15'
+env:
+  global:
+    secure: k3PUHHiSoOdy6NapWE7dpuO5y0rNqLHpNL+72MTjK72YuvPe7mpB1ihrEv51MRJJTQqU1KD9E/aiIH7eG4BxoPkYM2mavi4mkyK/fwKCaKzq/9a7HTDeF8cvSO8ekpXx17RzxHEgrRoRzOnh2dbONco3evgUh7ShiwsV3EaDW72iVxYCswgoD4R4CaPQcP6ASOj+SKHYYUE9xque0I6wcI8fkvWJ4HdbNr3Mm1P+fxLpqZJQ7OjPhtXrInOfUo9LzpOzMNqNi5rGADOOhehUrFWK+F/shHJeI/AwAbEfT+dTfIF9j0jSj7ZXH4heoCCA4zFMxYLbdKtChaeidrAyOIczw+gLYa4mqXF+TOhFL3W0ywUQpzt7Rb1BsT566oHyEi14Z1MxJ8lCZsCajyERhDkGgSLlQwDG95U78voP6wDPRrQFUrsksMYD0bxqc1e4k33f30cjLcxkr25tSZQp/5W5e9c3+83IAd3JAppT9DT0BTf8o/gqoArrn9FsiV3RjWGR3t5Nyn/SMBSw3GjlFGgcvOryN9EKOEGdsPDHzE56zipQmCIMMFrlkNC6n8mJTrWbnY4KR/XdepECCJV3/oQZfZL9BSD+YnY+3hi6oPfla7UnUMPqKF6zNTQ8qSuvA7PUtZ2WYUaRvHdA1qZp22p5FUfI7+P/xu1slrWi7A0=
