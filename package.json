@@ -4,7 +4,7 @@
     "description": "Test of Stencil component with Web Component tester from Polymer team",
     "main": "index.js",
     "scripts": {
-        "test": "wct"
+        "test": "wct --skip-plugin sauce"
     },
     "repository": {
         "type": "git",
