@@ -1,5 +1,6 @@
 module.exports = {
     testTimeout: 60 * 1000,
+    verbose: true,
     "npm": true,
     "moduleResolution": "node",
     "plugins": {
@@ -8,7 +9,7 @@ module.exports = {
         },
         "sauce": {
             "browsers": [{
-                "browserName": "microsoftedge",
+                "browserName": "chrome",
                 "platform": "Windows 10",
                 "version": ""
             }]
