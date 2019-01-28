@@ -1,4 +1,6 @@
-import { defineCustomElements } from '../dist/esm/es2017/nova.define.js';
+import {
+    defineCustomElements
+} from '../dist/esm/es2017/nova.define.js';
 defineCustomElements(window);
 
 const assert = chai.assert;
@@ -23,7 +25,7 @@ describe('Nova badge', () => {
             }, 200);
         });
         return testPromise.then(function(result) {
-            assert.equal(result, 'hydrated');
+            assert.include(result.split(' '), 'hydrated');
         });
     });
 });
