@@ -20,7 +20,7 @@ module.exports = {
                 "version": ""
             }, {
                 "browserName": "Safari",
-                "platform": "macOS 10.14",
+                "platform": "macOS 10.13",
                 "version": ""
             }]
         }
