@@ -14,6 +14,10 @@ module.exports = {
                 "browserName": "chrome",
                 "platform": "Windows 10",
                 "version": ""
+            }, {
+                "browserName": "MicrosoftEdge",
+                "platform": "Windows 10",
+                "version": ""
             }]
         }
     },
