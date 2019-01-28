@@ -18,6 +18,10 @@ module.exports = {
                 "browserName": "MicrosoftEdge",
                 "platform": "Windows 10",
                 "version": ""
+            }, {
+                "browserName": "Safari",
+                "platform": "macOS 10.14",
+                "version": ""
             }]
         }
     },
