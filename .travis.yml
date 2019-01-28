@@ -8,7 +8,7 @@ cache:
     directories:
         - node_modules
 script:
-    - wct --skipèplugin local
+    - wct --skip-plugin local
 env:
     global:
         - SAUCE_USERNAME: vogloblinsky
