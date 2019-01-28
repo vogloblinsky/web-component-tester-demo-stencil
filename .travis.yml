@@ -3,7 +3,7 @@ sudo: false
 dist: trusty
 node_js: '9'
 script:
-    - wct --skip-plugin local --verbose --config-file wct.conf.js
+    - wct --skip-plugin local --config-file wct.conf.js
 env:
     global:
         - SAUCE_USERNAME: nutrition
