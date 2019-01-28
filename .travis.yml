@@ -8,7 +8,7 @@ cache:
     directories:
         - node_modules
 script:
-    - wct --skip-plugin local --verbose --config-file wct.conf.js
+    - wct --verbose -s 'windows 10/microsoftedge@15'
 env:
     global:
         - SAUCE_USERNAME: vogloblinsky

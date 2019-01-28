@@ -1,4 +1,5 @@
 module.exports = {
+    testTimeout: 60 * 1000,
     "npm": true,
     "moduleResolution": "node",
     "plugins": {
@@ -8,8 +9,7 @@ module.exports = {
     },
     registerHooks: function(context) {
         const saucelabsPlatformsMicrosoft = [
-            'Windows 10/microsoftedge@17',
-            'Windows 10/internet explorer@11'
+            'Windows 10/microsoftedge@17'
         ];
         const saucelabsPlatforms = [
             ...saucelabsPlatformsMicrosoft
