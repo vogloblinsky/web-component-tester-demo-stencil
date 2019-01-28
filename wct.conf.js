@@ -5,6 +5,13 @@ module.exports = {
     "plugins": {
         "local": {
             "browsers": ["chrome"]
+        },
+        "sauce": {
+            "browsers": [{
+                "browserName": "microsoftedge",
+                "platform": "Windows 10",
+                "version": ""
+            }]
         }
     },
     "suites": [
