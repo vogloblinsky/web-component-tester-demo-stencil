@@ -2,13 +2,8 @@ language: node_js
 sudo: false
 dist: trusty
 node_js: '9'
-addons:
-    chrome: stable
-cache:
-    directories:
-        - node_modules
 script:
-    - wct --verbose -s 'windows 10/microsoftedge@15'
+    - wct --skip-plugin local --verbose --config-file wct.conf.js -s 'windows 10/microsoftedge@15'
 env:
     global:
         - SAUCE_USERNAME: vogloblinsky

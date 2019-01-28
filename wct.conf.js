@@ -7,13 +7,7 @@ module.exports = {
             "browsers": ["chrome"]
         }
     },
-    registerHooks: function(context) {
-        const saucelabsPlatformsMicrosoft = [
-            'Windows 10/microsoftedge@17'
-        ];
-        const saucelabsPlatforms = [
-            ...saucelabsPlatformsMicrosoft
-        ];
-        context.options.plugins.sauce.browsers = saucelabsPlatforms;
-    }
+    "suites": [
+        "test/index.html"
+    ]
 }
