@@ -11,18 +11,29 @@ module.exports = {
         },
         "sauce": {
             "browsers": [{
-                "browserName": "chrome",
-                "platform": "Windows 10",
-                "version": ""
-            }, {
-                "browserName": "MicrosoftEdge",
-                "platform": "Windows 10",
-                "version": ""
-            }, {
-                "browserName": "Safari",
-                "platform": "macOS 10.13",
-                "version": ""
-            }]
+                    "browserName": "chrome",
+                    "platform": "Windows 10",
+                    "version": ""
+                }, {
+                    "browserName": "MicrosoftEdge",
+                    "platform": "Windows 10",
+                    "version": ""
+                }, {
+                    "browserName": "Safari",
+                    "platform": "macOS 10.13",
+                    "version": "11"
+                },
+                {
+                    "browserName": "internet explorer",
+                    "platform": "Windows 10",
+                    "version": "11"
+                },
+                {
+                    "browserName": "firefox",
+                    "platform": "macOS 10.13",
+                    "version": ""
+                }
+            ]
         }
     },
     "suites": [
