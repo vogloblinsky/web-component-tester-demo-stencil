@@ -5,23 +5,14 @@ defineCustomElements(window);
 
 const assert = chai.assert;
 describe('Nova badge', () => {
-    let container;
+    let element;
     before(() => {
-        container = document.createElement('div');
-        document.body.appendChild(container);
-        console.log('end setup: ', container);
-    });
-    after(() => {
-        if (container && container.parentNode) {
-            container.parentNode.removeChild(container);
-        }
+        element = document.querySelector('nova-badge');
     });
     it('Rendered by Stencil', () => {
-        const el = document.createElement('nova-badge');
-        container.appendChild(el);
-        var testPromise = new Promise(function(resolve) {
+        const testPromise = new Promise(function(resolve) {
             setTimeout(function() {
-                resolve(el.getAttribute('class'));
+                resolve(element.getAttribute('class'));
             }, 200);
         });
         return testPromise.then(function(result) {
