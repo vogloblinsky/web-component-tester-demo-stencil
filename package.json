@@ -20,6 +20,12 @@
         "@webcomponents/webcomponentsjs": "^2.2.4",
         "chai": "^4.2.0",
         "mocha": "^5.2.0",
+        "rollup": "^0.66.2",
+        "rollup-plugin-commonjs": "^9.2.0",
+        "rollup-plugin-node-resolve": "^4.0.0",
+        "rollup-plugin-typescript": "^1.0.0",
+        "tslib": "^1.9.3",
+        "typescript": "^3.2.4",
         "wct-mocha": "^1.0.0",
         "web-component-tester": "^6.9.2"
     }
